@@ -13,7 +13,7 @@ public class ConnectionUtil {
     	final String DATABASE_NAME = "mydb";
     	final String DATABASE_USERNAME = "root";
     	final String DATABASE_PASSWORD = "TryThisOne";
-    	Connection conn=null;
+    	Connection conn = null;
     	
     	try{
        
@@ -26,7 +26,6 @@ public class ConnectionUtil {
     		e.printStackTrace();
     	}
     	return conn;
-        
         
     }    
      
