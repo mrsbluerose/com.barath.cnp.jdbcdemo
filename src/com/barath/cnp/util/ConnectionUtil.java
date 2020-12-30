@@ -1,4 +1,4 @@
-package com.barath.cnp.conn;
+package com.barath.cnp.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
