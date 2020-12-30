@@ -2,7 +2,7 @@ package com.barath.cnp.model;
 
 import java.math.BigDecimal;
 
-public class Products {
+public class Product {
 
 	private int id;
 	private String name;
@@ -52,7 +52,7 @@ public class Products {
 
 	@Override
 	public String toString() {
-		return "Products [id=" + id + ", name=" + name + ", description=" + description + ", price=" + price
+		return "Product [id=" + id + ", name=" + name + ", description=" + description + ", price=" + price
 				+ ", couponCode=" + couponCode + "]";
 	}
 }
