@@ -26,7 +26,12 @@ public class CouponController extends HttpServlet {
     }
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		createCoupon(request, response);
+		String action= request.getParameter("action");
+		if(action.contentEquals("create")) {
+			createCoupon(request,response);
+		} else if (action.contentEquals("find")) {
+			
+		}
 	}
 
 	private void createCoupon(HttpServletRequest request, HttpServletResponse response) throws IOException {

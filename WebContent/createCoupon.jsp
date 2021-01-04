@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Create Coupon</h1>
-<form action="">
+<form action="coupons" method="post">
 <pre>
 Coupon Code: <input type="text" name="CouponCode" />
 Discount: <input type="text" name="discount" />
