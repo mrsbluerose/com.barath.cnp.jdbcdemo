@@ -48,7 +48,7 @@ public class CouponController extends HttpServlet {
 		
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
-		out.print("<b>Product Created!!</b>");
+		out.print("<b>Coupon Created!!</b>");
 		out.print("<br/><a href='/candpapp'>Home</a>");
 	}
 	
