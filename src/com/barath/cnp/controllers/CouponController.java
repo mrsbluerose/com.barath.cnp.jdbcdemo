@@ -16,7 +16,7 @@ import com.barath.cnp.model.Coupon;
 /**
  * Servlet implementation class CouponController
  */
-@WebServlet("/coupons")
+@WebServlet("/coupons") //creates the url for the html form to be submitted to
 public class CouponController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private CouponDAO dao = new CouponDAO();
