@@ -8,11 +8,11 @@ public class ConnectionUtil {
     
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
     	
-    	final String HOST_NAME = "localhost";
-    	final String SQL_PORT = "3306";
-    	final String DATABASE_NAME = "mydb";
-    	final String DATABASE_USERNAME = "root";
-    	final String DATABASE_PASSWORD = "TryThisOne";
+    	final String HOST_NAME = "";
+    	final String SQL_PORT = "";
+    	final String DATABASE_NAME = "";
+    	final String DATABASE_USERNAME = "";
+    	final String DATABASE_PASSWORD = "";
     	Connection conn = null;
     	
     	try{
